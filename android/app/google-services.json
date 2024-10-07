@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "202118701049",
+    "project_id": "foxfire-c2459",
+    "storage_bucket": "foxfire-c2459.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202118701049:android:760dd5dc1e92eb6a3da728",
+        "android_client_info": {
+          "package_name": "com.example.ng_boost"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbh1Dz8SaHpFR6o2nVWrUUGiHozJSPhN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
