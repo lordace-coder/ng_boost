@@ -283,6 +283,26 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               const Divider(),
+              GestureDetector(
+                onTap: () {
+                  closeDrawer();
+                  showLicensePage(context: context);
+                },
+                child: Row(
+                  // crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    const Icon(
+                      Icons.newspaper,
+                      size: 14,
+                    ),
+                    gapW(10),
+                    const Text('Show App Licences'),
+                  ],
+                ),
+              ),
+              const Divider(),
+              gapH(10),
+              const Text('NG Boost \nVersion:1.0.0'),
             ],
           ),
         ),
