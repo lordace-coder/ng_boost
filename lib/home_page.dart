@@ -380,7 +380,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onHorizontalDragDown: (x) {
-        controller.reload();
+        // controller.reload();
       },
       child: AppBar(
         backgroundColor: primary,
