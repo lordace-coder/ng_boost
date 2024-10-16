@@ -27,6 +27,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
+    controller.setUserAgent('webview');
     controller.setJavaScriptMode(JavaScriptMode.unrestricted);
     controller.loadRequest(Uri.parse(Urls.homeUrl));
     controller.setNavigationDelegate(
