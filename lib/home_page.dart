@@ -188,7 +188,7 @@ class _HomePageState extends State<HomePage> {
               GestureDetector(
                 onTap: () {
                   closeDrawer();
-                  controller.loadRequest(Uri.parse(Urls.blog));
+                  controller.loadRequest(Uri.parse(Urls.chat));
                 },
                 child: Row(
                   // crossAxisAlignment: CrossAxisAlignment.center,
@@ -220,7 +220,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     gapW(10),
                     const Text(
-                      'Affliate Referrals',
+                      'Refer and Earn',
                       textAlign: TextAlign.end,
                     ),
                   ],
